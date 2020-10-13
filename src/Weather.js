@@ -30,6 +30,7 @@ export default function Weather() {
               placeholder="Type a city.."
               className="form-control"
               autoComplete="off"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -63,7 +64,6 @@ export default function Weather() {
             <li>Humidity: {weatherData.humidity}%</li>
             <li>Wind: {weatherData.wind} km/h</li>
             <li>Description: {weatherData.description}</li>
-            <li>Feels Like: {weatherData.feels_like}</li>
           </ul>
         </div>
       </div>

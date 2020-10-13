@@ -1,23 +1,24 @@
 .Weather {
   padding: 20px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .Weather .overview {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .Weather .weather-temperature img {
-  margin-right: 5px;
-  height: 100px;
-  width: 100px;
+  margin-right: -14px;
+  height: 115px;
+  width: 115px;
 }
 
 .Weather .weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 90px;
-  line-height: 100px;
+  line-height: 120px;
   font-weight: 400;
 }
 
@@ -47,14 +48,14 @@
   text-align: center;
   height: 15px;
   line-height: 15px;
-  padding-top: 7px;
+  padding-top: 17px;
 }
 
 .Weather .weather-forecast img {
   display: block;
   margin: 0 auto;
-  height: 48px;
-  width: 48px;
+  height: 90px;
+  width: 90px;
 }
 
 .Weather .weather-forecast-temperature {
@@ -65,4 +66,12 @@
   height: auto;
   line-height: 15px;
   white-space: nowrap;
+}
+
+.Weather .col-6 {
+  margin-top: 15px;
+}
+
+li {
+  margin-top: 11px;
 }
